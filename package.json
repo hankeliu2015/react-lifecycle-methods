@@ -1,11 +1,10 @@
-
-
 {
   "homepage": "http://hankeliu2015.github.io/react-lifecycle-methods",
   "name": "react-lifecycle-methods",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.27",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

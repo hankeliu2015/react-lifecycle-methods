@@ -9,7 +9,7 @@ import Triangle from './components/triangle';
 import ImRecursive from './components/imRecursive';
 import Pizza from './containers/pizza';
 import StylingTest from './components/stylingTest';
-
+// import { css, jsx } from '@emotion/core';
 
 class App extends Component {
   constructor() {
@@ -29,7 +29,7 @@ class App extends Component {
           </header>
           */}
 
-        <h3>CSS Styple Test</h3>
+        <h3>Styple Test & EmotionCore</h3>
         <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
         <StylingTest/>
         <h3>Opacity Test 1</h3>
