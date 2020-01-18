@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import styled from '@emotion/styled';
 
+import '../App.css'
+
 const HeroDiv = styled.div`
   border: 1px solid red;
   padding-lef: 1em;
@@ -15,7 +17,7 @@ const HeroDiv = styled.div`
   }
 `;
 
-class EmotionStyled extends Component {
+class StylingTest2 extends Component {
 
   render() {
 
@@ -39,4 +41,4 @@ class EmotionStyled extends Component {
 
 }
 
-export default EmotionStyled;
+export default StylingTest2;
