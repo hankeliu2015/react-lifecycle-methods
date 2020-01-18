@@ -31,6 +31,7 @@ class App extends Component {
           */}
 
         <h3>Emotion Styled Test</h3>
+        <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
         <StylingTest2/>
         <h3>Styple Test & EmotionCore</h3>
         <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
