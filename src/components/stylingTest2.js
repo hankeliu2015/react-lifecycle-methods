@@ -1,21 +1,6 @@
 import React, { Component } from 'react';
 
-import styled from '@emotion/styled';
-
-import '../App.css'
-
-const HeroDiv = styled.div`
-  border: 1px solid red;
-  padding-lef: 1em;
-  margin-bottom: 5px;
-  h4 {
-    color: blue;
-    text-decoration: underline;
-  }
-  p {
-    color: #fcc300;
-  }
-`;
+import { HeroDiv } from '../CSS/emotionStyle'
 
 class StylingTest2 extends Component {
 
@@ -23,12 +8,12 @@ class StylingTest2 extends Component {
 
     return (
       <div >
-        <div>
+        <HeroDiv>
 
           <h4>The Flash - Emotion Styled</h4>
           <p>The Flash is a fictional superhero in comic books.</p>
 
-        </div >
+        </HeroDiv >
         <div>
           <h4>Reverse Flash - - Emotion Styled</h4>
           <p>Reverse Flash is a supervillain in comic books.
