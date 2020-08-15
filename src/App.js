@@ -10,7 +10,8 @@ import ImRecursive from './components/imRecursive';
 import Pizza from './containers/pizza';
 import StylingTest from './components/stylingTest';
 import StylingTest2 from './components/stylingTest2';
-import RefTest from './components/refTest'
+import RefTest from './components/refTest';
+import List from './containers/list.js'
 
 
 class App extends Component {
@@ -31,6 +32,8 @@ class App extends Component {
           </header>
           */}
 
+        <h3>Fragemtns Test</h3>
+        <List/>
         <h3>Ref Test</h3>
         <RefTest/>
         <h3>Emotion Styled Test</h3>
@@ -48,11 +51,11 @@ class App extends Component {
           <h2>Some mild-mannered text trapped inside a bar.</h2>
         </div>
         <h3>Opacity Test 3</h3>
-          <div class="container">
+          <div className="container">
             <h3>cannot make a child element less transparent than the parent</h3>
-            <div class="opacity70">opacity: 0.7</div>
-            <div class="opacity60">opacity: 0.6</div>
-            <div class="opacity50">opacity: 0.5</div>
+            <div className="opacity70">opacity: 0.7</div>
+            <div className="opacity60">opacity: 0.6</div>
+            <div className="opacity50">opacity: 0.5</div>
           </div>
 
         <br/>
