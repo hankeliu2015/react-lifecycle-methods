@@ -10,6 +10,7 @@ import ImRecursive from './components/imRecursive';
 import Pizza from './containers/pizza';
 import StylingTest from './components/stylingTest';
 import StylingTest2 from './components/stylingTest2';
+import RefTest from './components/refTest'
 
 
 class App extends Component {
@@ -30,6 +31,8 @@ class App extends Component {
           </header>
           */}
 
+        <h3>Ref Test</h3>
+        <RefTest/>
         <h3>Emotion Styled Test</h3>
         <div className={'opacitytest'} style={{opacity: 0.5}}>Opacity is 0.5</div>
         <StylingTest2/>
