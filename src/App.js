@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import chart from './lifecyclechart.jpeg';
 import Name from './name';
@@ -10,7 +10,8 @@ import Pizza from './containers/pizza';
 import StylingTest from './components/stylingTest';
 import StylingTest2 from './components/stylingTest2';
 import RefTest from './components/refTest';
-import List from './containers/list.js'
+import List from './containers/list.js';
+// import DocumentTitle from 'react-document-title';
 
 
 class App extends Component {
@@ -75,6 +76,7 @@ class App extends Component {
         <Name firstName={this.state.name} />
 
       </div>
+
     );
   }
 }
