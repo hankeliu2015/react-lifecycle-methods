@@ -11,6 +11,7 @@ import StylingTest from './components/stylingTest';
 import StylingTest2 from './components/stylingTest2';
 import RefTest from './components/refTest';
 import List from './containers/list.js';
+import JsxTest from './components/jsxTest.js';
 // import DocumentTitle from 'react-document-title';
 
 
@@ -32,6 +33,8 @@ class App extends Component {
           </header>
           */}
 
+        <h3>JSX Test</h3>
+        <JsxTest/>
         <h3>Fragemtns Test</h3>
         <List/>
         <h3>Ref Test</h3>
