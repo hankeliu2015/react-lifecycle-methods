@@ -13,6 +13,7 @@ import RefTest from './components/refTest';
 import List from './containers/list.js';
 import JsxTest from './components/jsxTest.js';
 import ReactElementTest from './components/reactElementTest.js';
+import Todos from './components/Todos.js';
 // import DocumentTitle from 'react-document-title';
 
 
@@ -33,7 +34,7 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
-
+        <Todos />
         <h3>Update the rendered Element Test </h3>
         <ReactElementTest />
         <h3>JSX Test</h3>
