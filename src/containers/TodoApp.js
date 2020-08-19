@@ -23,7 +23,10 @@ class TodoApp extends Component {
     // console.log(this.state.todos)
 
     return (
+      <div>
+      <h1>Todos App</h1>
       <Todos todos = {this.state.todos} />
+      </div>
     )
   }
 }
