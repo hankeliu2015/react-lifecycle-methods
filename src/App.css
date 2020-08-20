@@ -137,6 +137,11 @@ div.opacity50 {
     width: 50px;
     cursor: pointer;
     color: white;
-
   }
+}
+
+/* todo styles  */
+
+.todo-container {
+  padding: 0 1rem;
 }
