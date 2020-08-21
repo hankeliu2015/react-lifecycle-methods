@@ -37,13 +37,20 @@ class TodoApp extends Component {
     this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)]});
   }
 
+  addTodo = (title) => {
+    let newTodo = {id :4, title, completed: false}
+    this.setState({
+      todos: [...this.state.todos, newTodo]
+    })
+  }
+
   render() {
     return (
       <div>
         <div className='todo-container'>
           <TodoHeader />
-          <TodoAdd />
-          <Todos todos = {this.state.todos} markComplete = {this.markComplete} delTodo={this.delTodo}/>
+          <TodoAdd addTodo={this.addTodo} />
+          <Todos todos = {this.state.todos} markComplete = {this.markComplete} delTodo={this.delTodo} />
         </div>
       </div>
     )
