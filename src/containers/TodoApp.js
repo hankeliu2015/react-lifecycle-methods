@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import Todos from '../components/Todos.js'
-import TodoHeader from '../components/TodoHeader.js'
-import TodoAdd from '../components/TodoAdd.js'
+import Todos from '../components/Todos.js';
+import TodoHeader from '../components/TodoHeader.js';
+import TodoAdd from '../components/TodoAdd.js';
+import { v4 as uuidv4 } from 'uuid';
 
 class TodoApp extends Component {
   state = {
     todos: [
       {
-        id: 1,
+        id: uuidv4(),
         title: 'Clean up living room',
         completed: false
       },
       {
-        id: 2,
+        id: uuidv4(),
         title: 'Dinner with friends',
         completed: false
       },
-      {id: 3,
+      {id: uuidv4(),
       title: 'Meeting with colleagues',
       completed: false}
     ]
@@ -38,7 +39,7 @@ class TodoApp extends Component {
   }
 
   addTodo = (title) => {
-    let newTodo = {id :4, title, completed: false}
+    let newTodo = {id :uuidv4(), title, completed: false}
     this.setState({
       todos: [...this.state.todos, newTodo]
     })
