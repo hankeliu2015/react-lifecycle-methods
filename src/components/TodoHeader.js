@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function TodoHeader() {
   return (
-    <h1 style={todoHeaderStyle}>Todo List </h1>
+    <React.Fragment>
+      <h1 style={todoHeaderStyle}>Todo List </h1>
+      <Link to="/todohome"> Todo Home </Link> | <Link to="/todoabout">Todo About</Link>
+
+    </React.Fragment>
   )
 }
 
