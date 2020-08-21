@@ -38,8 +38,6 @@ class TodoApp extends Component {
   }
 
   render() {
-    // console.log(this.state.todos)
-
     return (
       <div>
         <div className='todo-container'>
