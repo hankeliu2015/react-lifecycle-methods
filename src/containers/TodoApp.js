@@ -51,16 +51,15 @@ class TodoApp extends Component {
     return (
       <Router>
         <div>
-          <div exact className='todo-container'>
+          <div className='todo-container'>
             <TodoHeader />
-            <Route path="/todohome" render={props => (
+            <Route exact path="/todohome" render={props => (
                 <React.Fragment>
                   <TodoAdd addTodo={this.addTodo} />
                   <Todos todos = {this.state.todos} markComplete = {this.markComplete} delTodo={this.delTodo} />
                 </React.Fragment>
               )} />
             <Route path='/todoabout' component={About} />
-
           </div>
         </div>
       </Router>
