@@ -15,6 +15,7 @@ import JsxTest from './components/jsxTest.js';
 import ReactElementTest from './components/reactElementTest.js';
 import TodoApp from './containers/TodoApp.js';
 import BasicRoutingApp from './containers/BasicRoutingApp.js';
+import NestRoutingApp from './containers/NestRoutingApp.js';
 // import DocumentTitle from 'react-document-title';
 
 
@@ -35,6 +36,7 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
+        <NestRoutingApp />
         <BasicRoutingApp />
         <TodoApp />
         <h3>Update the rendered Element Test </h3>
