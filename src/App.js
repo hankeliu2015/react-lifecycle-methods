@@ -16,6 +16,10 @@ import ReactElementTest from './components/reactElementTest.js';
 import TodoApp from './containers/TodoApp.js';
 import BasicRoutingApp from './containers/BasicRoutingApp.js';
 import NestRoutingApp from './containers/NestRoutingApp.js';
+// import MouseTracker from './components/Mouse.js';
+import MouseTracker1 from './components/Cat1.js';
+import MouseTracker2 from './components/Cat2.js';
+
 // import DocumentTitle from 'react-document-title';
 
 
@@ -36,6 +40,9 @@ class App extends Component {
           <p>Learn React LifeCycle</p>
           </header>
           */}
+
+        <MouseTracker2 />
+        <MouseTracker1 />
         <NestRoutingApp />
         <BasicRoutingApp />
         <TodoApp />
