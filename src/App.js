@@ -17,8 +17,8 @@ import TodoApp from './containers/TodoApp.js';
 import BasicRoutingApp from './containers/BasicRoutingApp.js';
 import NestRoutingApp from './containers/NestRoutingApp.js';
 // import MouseTracker from './components/Mouse.js';
-import MouseTracker1 from './components/Cat1.js';
-import MouseTracker2 from './components/Cat2.js';
+// import MouseTracker1 from './components/MourTracker1.js';
+import MouseTracker2 from './components/MouseTracker2.js';
 import MovieApp from './containers/MovieApp.js';
 import MovieNestApp from './containers/MovieNestApp.js';
 
@@ -46,7 +46,6 @@ class App extends Component {
         <MovieNestApp />
         <MovieApp />
         <MouseTracker2 />
-        <MouseTracker1 />
         <NestRoutingApp />
         <BasicRoutingApp />
         <TodoApp />
