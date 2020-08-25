@@ -20,7 +20,7 @@ import NestRoutingApp from './containers/NestRoutingApp.js';
 import MouseTracker1 from './components/Cat1.js';
 import MouseTracker2 from './components/Cat2.js';
 import MovieApp from './containers/MovieApp.js';
-import MovieAppNest from './containers/MovieAppNest.js';
+import MovieNestApp from './containers/MovieNestApp.js';
 
 // import DocumentTitle from 'react-document-title';
 
@@ -43,7 +43,7 @@ class App extends Component {
           </header>
           */}
 
-        <MovieAppNest />
+        <MovieNestApp />
         <MovieApp />
         <MouseTracker2 />
         <MouseTracker1 />
