@@ -20,9 +20,10 @@ class MovieNestApp extends Component {
     return (
       <Router>
         <div>
+          <h2>Nest Routing Movies App</h2>
           <MovieNestNavBar />
-          <Route exact path="/movienesthome" render={() => <div><h1>Movie
-            App Nest Routing Test Home Page</h1>  <p>Eam libris meliore ea, nam id aperiam insolens. In ius suas ferri ignota, impedit rationibus eum ne. Te sed volutpat constituam scribentur. Eu ius velit numquam detraxit, at brute elitr nam.</p><hr/></div>} />
+          <Route exact path="/movienesthome" render={() => <div><h3>Movie
+            App Home Page</h3>  <p>Eam libris meliore ea, nam id aperiam insolens. In ius suas ferri ignota, impedit rationibus eum ne. Te sed volutpat constituam scribentur.</p><hr/></div>} />
           <Route path='/moviesnest' render={routerProps => <MoviesNestPage {...routerProps} movies={this.state.movies}/>} />
         </div>
       </Router>

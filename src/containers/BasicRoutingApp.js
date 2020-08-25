@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 export default function BasicRoutingApp () {
   return (
     <Router>
-    <h1>Bacic Routing Testing App</h1>
+    <h2>Basic Client Routing Testing App</h2>
       <ul>
         <li>
           <Link to="/basicroutinghome">Home</Link>

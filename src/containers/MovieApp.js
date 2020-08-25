@@ -15,11 +15,13 @@ const MovieApp = (props) => {
   return (
     <Router>
       <div className="app">
+        <h2>Movie Directors and Actors client routing basics</h2>
         <NavBar />
         <Route exact path="/moviehome" component={Home} />
         <Route exact path="/movieactors" component={Actors} />
         <Route exact path="/moviedirectors" component={Directors} />
         <Route exact path="/movies" component={Movies} />
+        <hr/>
       </div>
     </Router>
   );
