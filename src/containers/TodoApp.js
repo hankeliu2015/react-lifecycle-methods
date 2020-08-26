@@ -18,6 +18,7 @@ class TodoApp extends Component {
       todos: res.data
     }))
   }
+
   markComplete = (id) => {
     this.setState({
       todos: this.state.todos.map(el => {
@@ -34,10 +35,15 @@ class TodoApp extends Component {
   }
 
   addTodo = (title) => {
-    let newTodo = {id :uuidv4(), title, completed: false}
-    this.setState({
-      todos: [...this.state.todos, newTodo]
+    // let newTodo = {id :uuidv4(), title, completed: false}
+    // this.setState({
+    //   todos: [...this.state.todos, newTodo]
+    // })
+    axios.post('https://jsonplaceholder.typicode.com/posts', {
+      title,
+      completed: false
     })
+    .then(res => this.setState({todos: [...this.state.todos, res.data]}) )
   }
 
   render() {
