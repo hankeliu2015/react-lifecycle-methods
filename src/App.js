@@ -21,6 +21,7 @@ import NestRoutingApp from './containers/NestRoutingApp.js';
 import MouseTracker2 from './components/MouseTracker2.js';
 import MovieApp from './containers/MovieApp.js';
 import MovieNestApp from './containers/MovieNestApp.js';
+import WelcomeDialogApp from './containers/WelcomeDialogApp.js';
 
 // import DocumentTitle from 'react-document-title';
 
@@ -43,6 +44,7 @@ class App extends Component {
           </header>
           */}
 
+        <WelcomeDialogApp />
         <MovieNestApp />
         <MovieApp />
         <MouseTracker2 />
