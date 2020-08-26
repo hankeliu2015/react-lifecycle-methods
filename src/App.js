@@ -13,7 +13,6 @@ import RefTest from './components/refTest';
 import List from './containers/list.js';
 import JsxTest from './components/jsxTest.js';
 import ReactElementTest from './components/reactElementTest.js';
-import TodoApp from './containers/TodoApp.js';
 import BasicRoutingApp from './containers/BasicRoutingApp.js';
 import NestRoutingApp from './containers/NestRoutingApp.js';
 // import MouseTracker from './components/Mouse.js';
@@ -22,6 +21,7 @@ import MouseTracker2 from './components/MouseTracker2.js';
 import MovieApp from './containers/MovieApp.js';
 import MovieNestApp from './containers/MovieNestApp.js';
 import WelcomeDialogApp from './containers/WelcomeDialogApp.js';
+import TodoApp from './containers/TodoApp.js';
 
 // import DocumentTitle from 'react-document-title';
 
@@ -44,13 +44,13 @@ class App extends Component {
           </header>
           */}
 
+        <TodoApp />
         <WelcomeDialogApp />
         <MovieNestApp />
         <MovieApp />
         <MouseTracker2 />
         <NestRoutingApp />
         <BasicRoutingApp />
-        <TodoApp />
         <h3>Update the rendered Element Test </h3>
         <ReactElementTest />
         <h3>JSX Test</h3>
